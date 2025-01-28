@@ -26,7 +26,7 @@ if (sum <= 10) {
 
 const str = "JavaScript";
 
-if (str.includes("JavaScript")) {
+if ((str.toLowerCase(), str.includes("JavaScript"))) {
   console.log("Текст містить слово JavaScript");
 } else {
   console.log("Текст не містить слово JavaScript");
